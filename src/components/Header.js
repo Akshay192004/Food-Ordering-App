@@ -15,7 +15,8 @@ const Header = () => {
       <div className="flex">
         
         <span className="m-4 p-4 hover:bg-orange-200">
-           <img className="w-14 mx-3" src={LOGO_URL}></img>
+        <img className="w-24 h-24 mx-3" src={LOGO_URL} alt="Logo" />
+
           </span>
       </div>
       <div className="flex items-center">
